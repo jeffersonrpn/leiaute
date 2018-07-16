@@ -1,1 +1,6 @@
 output
+bin
+include
+lib
+env
+pip-selfcheck.json
