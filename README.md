@@ -17,8 +17,7 @@ pip install -r requirements.txt
 As páginas são geradas no diretório __output__ usando o pelican:
 
 ```
-pelican
+pelican -t pelican-clean-blog
 ```
-
 
 ### Publicar via githubpages
