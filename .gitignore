@@ -3,6 +3,7 @@ bin
 include
 lib
 env
+local
 pip-selfcheck.json
 __pycache__
 *.pyc

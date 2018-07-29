@@ -8,7 +8,7 @@ Este site foi construído usando [pelican](http://docs.getpelican.com/en/3.7.1/i
 e utiliza [virtualenv](https://virtualenv.pypa.io/en/stable/userguide/). Para setar o ambiente, basta iniciar o ambiente e instalar as dependências:
 
 ```
-virtualenv ENV
+virtualenv .
 source bin/activate
 
 pip install -r requirements.txt
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 As páginas são geradas no diretório __output__ usando o pelican:
 
 ```
-pelican content -t pelican-clean-blog -o output -s publishconf.py
+pelican content -o output -s publishconf.py -t ./themes/carcara
 ```
 
 ### Publicar via github pages
