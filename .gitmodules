@@ -1,0 +1,3 @@
+[submodule "themes/carcara"]
+	path = themes/carcara
+	url = https://github.com/jeffersonrpn/carcara.git
