@@ -1,0 +1,124 @@
+@import url("https://unpkg.com/normalize.css@7.0.0/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+/* theme-color: #6636cc */
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  color: #555555;
+}
+
+header {
+}
+
+h1 {
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: #6636cc;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 992px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+nav.nav {
+}
+
+nav.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav.nav ul li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+nav.nav ul li > a:link,
+nav.nav ul li > a:visited {
+  color: #9b9b9b;
+}
+
+nav.nav ul li > a:active,
+nav.nav ul li > a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+
+body > footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #6636cc;
+  color: #fff;
+}
+
+main {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+
+figure {
+  text-align: center;
+}
+
+.summary > article {
+  margin-bottom: 3rem;
+}
+
+.summary > article > footer {
+  font-size: 0.8rem;
+}
+
+.body {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category {
+  font-size: 0.8rem;
+  color: #555555;
+}
+
+.entry-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.entry-summary {
+  font-weight: 400;
+}
+
+.post-info {
+  margin-bottom: 3rem;
+}
