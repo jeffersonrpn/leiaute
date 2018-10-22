@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <title>leiaute - Grid</title>
+    <title>leiaute - Layout</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://jeffersonrpn.github.io/leiaute/theme/css/main.css" />
@@ -12,7 +12,6 @@
 
     <meta name="tags" content="html" />
     <meta name="tags" content="css" />
-    <meta name="tags" content="grid" />
 
 </head>
 <body id="index">
@@ -38,9 +37,9 @@
       <a href="https://jeffersonrpn.github.io/leiaute/category/intro.html">intro</a>
     </div>
     <h2 class="entry-title">
-      Grid <small><a href="https://jeffersonrpn.github.io/leiaute/grid.html" rel="bookmark" title="Permalink to Grid">&lt;&gt;</a></small>
+      Layout <small><a href="https://jeffersonrpn.github.io/leiaute/layout.html" rel="bookmark" title="Permalink to Layout">&lt;&gt;</a></small>
     </h2>
-      <h3 class="entry-summary">Conceitos básicos do display:grid</h3>
+      <h3 class="entry-summary">Block, inline e inline-block</h3>
    
   </header>
   <footer class="post-info">
@@ -51,30 +50,43 @@
   <div class="entry-content">
     
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <p>
+    Em se trantando de leiautes, o box model pode assumir diferentes maneiras de tomar o seu espaço.
+  </p>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <dl>
+    <dt>display: block</dt>
+    <dd>
+      Assume a mesma largura do elemento pai.<br>
+      Assume a largura do conteúdo.<br>
+      Pode ter a largura e alturas definidas.
+    </dd>
+    <dt>display: inline</dt>
+    <dd>Assume a mesma largura do elemento pai. Pode ter a largura e alturas definidas.</dd>
+  </dl>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <ul>
+    <li><strong>display: block</strong>: assume a mesma largura do elemento pai.</li>
+    <li><strong>border</strong>: a borda que circunda o elemento</li>
+    <li><strong>padding</strong>: área transparente entre o conteúdo e a borda</li>
+    <li><strong>conteúdo</strong>: área onde textos ou imagens são mostradas</li>
+  </ul>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
 
   <figure class="figure">
     <img src="https://jeffersonrpn.github.io/leiaute/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure.">
-    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+    <figcaption class="figure-caption">Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos</figcaption>
   </figure>
 
-  <p style="margin: 40px; padding: 20px; border: solid 4px;">Até mesmo este parágrafo é um retangulo.</p>
+  <p style="margin: 40px; padding: 20px; border: solid 4px;">Até mesmo este parágrafo é um retângulo.</p>
+
+  <code>
+    p {
+      margin: 40px;
+      padding: 20px;
+      border: solid 4px;
+    }
+  </code>
 
 
   </div><!-- /.entry-content -->

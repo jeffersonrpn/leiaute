@@ -88,6 +88,7 @@ main {
 
 figure {
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .summary > article {
@@ -121,4 +122,10 @@ figure {
 
 .post-info {
   margin-bottom: 3rem;
+}
+
+.code {
+  border-radius: 4px;
+  background-color: #212529;
+  color: #eeffff;
 }

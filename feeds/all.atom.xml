@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>leiaute</title><link href="https://jeffersonrpn.github.io/leiaute/" rel="alternate"></link><link href="https://jeffersonrpn.github.io/leiaute/feeds/all.atom.xml" rel="self"></link><id>https://jeffersonrpn.github.io/leiaute/</id><updated>2018-08-01T00:00:00-03:00</updated><entry><title>Boxmodel</title><link href="https://jeffersonrpn.github.io/leiaute/boxmodel.html" rel="alternate"></link><published>2018-08-01T00:00:00-03:00</published><updated>2018-08-01T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-01:/leiaute/boxmodel.html</id><summary type="html">Todos os elementos HTML podem ser considerados como caixas</summary><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>leiaute</title><link href="https://jeffersonrpn.github.io/leiaute/" rel="alternate"></link><link href="https://jeffersonrpn.github.io/leiaute/feeds/all.atom.xml" rel="self"></link><id>https://jeffersonrpn.github.io/leiaute/</id><updated>2018-08-05T00:00:00-03:00</updated><entry><title>Grid</title><link href="https://jeffersonrpn.github.io/leiaute/grid.html" rel="alternate"></link><published>2018-08-05T00:00:00-03:00</published><updated>2018-08-05T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-05:/leiaute/grid.html</id><summary type="html">Conceitos básicos do display:grid</summary><content type="html">
 
   &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
     consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
@@ -26,7 +26,7 @@
 
   &lt;p style="margin: 40px; padding: 20px; border: solid 4px;"&gt;Até mesmo este parágrafo é um retangulo.&lt;/p&gt;
 
-</content><category term="html"></category><category term="css"></category><category term="boxmodel"></category></entry><entry><title>Flex</title><link href="https://jeffersonrpn.github.io/leiaute/flex.html" rel="alternate"></link><published>2018-08-01T00:00:00-03:00</published><updated>2018-08-01T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-01:/leiaute/flex.html</id><summary type="html">Conceitos básicos do display:flex</summary><content type="html">
+</content><category term="html"></category><category term="css"></category><category term="grid"></category></entry><entry><title>Flex</title><link href="https://jeffersonrpn.github.io/leiaute/flex.html" rel="alternate"></link><published>2018-08-04T00:00:00-03:00</published><updated>2018-08-04T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-04:/leiaute/flex.html</id><summary type="html">Conceitos básicos do display:flex</summary><content type="html">
 
   &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
     consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
@@ -53,31 +53,92 @@
 
   &lt;p style="margin: 40px; padding: 20px; border: solid 4px;"&gt;Até mesmo este parágrafo é um retangulo.&lt;/p&gt;
 
-</content><category term="html"></category><category term="css"></category><category term="flexbox"></category></entry><entry><title>Grid</title><link href="https://jeffersonrpn.github.io/leiaute/grid.html" rel="alternate"></link><published>2018-08-01T00:00:00-03:00</published><updated>2018-08-01T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-01:/leiaute/grid.html</id><summary type="html">Conceitos básicos do display:grid</summary><content type="html">
+</content><category term="html"></category><category term="css"></category><category term="flexbox"></category></entry><entry><title>Layout</title><link href="https://jeffersonrpn.github.io/leiaute/layout.html" rel="alternate"></link><published>2018-08-03T00:00:00-03:00</published><updated>2018-08-03T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-03:/leiaute/layout.html</id><summary type="html">Block, inline e inline-block</summary><content type="html">
 
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
+  &lt;p&gt;
+    Em se trantando de leiautes, o box model pode assumir diferentes maneiras de tomar o seu espaço.
+  &lt;/p&gt;
 
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
+  &lt;dl&gt;
+    &lt;dt&gt;display: block&lt;/dt&gt;
+    &lt;dd&gt;
+      Assume a mesma largura do elemento pai.&lt;br&gt;
+      Assume a largura do conteúdo.&lt;br&gt;
+      Pode ter a largura e alturas definidas.
+    &lt;/dd&gt;
+    &lt;dt&gt;display: inline&lt;/dt&gt;
+    &lt;dd&gt;Assume a mesma largura do elemento pai. Pode ter a largura e alturas definidas.&lt;/dd&gt;
+  &lt;/dl&gt;
 
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;display: block&lt;/strong&gt;: assume a mesma largura do elemento pai.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;border&lt;/strong&gt;: a borda que circunda o elemento&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: área transparente entre o conteúdo e a borda&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;conteúdo&lt;/strong&gt;: área onde textos ou imagens são mostradas&lt;/li&gt;
+  &lt;/ul&gt;
 
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
-
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
-
-  &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.&lt;/p&gt;
 
   &lt;figure class="figure"&gt;
     &lt;img src="https://jeffersonrpn.github.io/leiaute/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure."&gt;
-    &lt;figcaption class="figure-caption"&gt;A caption for the above image.&lt;/figcaption&gt;
+    &lt;figcaption class="figure-caption"&gt;Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos&lt;/figcaption&gt;
   &lt;/figure&gt;
 
-  &lt;p style="margin: 40px; padding: 20px; border: solid 4px;"&gt;Até mesmo este parágrafo é um retangulo.&lt;/p&gt;
+  &lt;p style="margin: 40px; padding: 20px; border: solid 4px;"&gt;Até mesmo este parágrafo é um retângulo.&lt;/p&gt;
 
-</content><category term="html"></category><category term="css"></category><category term="grid"></category></entry></feed>
+  &lt;code&gt;
+    p {
+      margin: 40px;
+      padding: 20px;
+      border: solid 4px;
+    }
+  &lt;/code&gt;
+
+</content><category term="html"></category><category term="css"></category></entry><entry><title>Box model</title><link href="https://jeffersonrpn.github.io/leiaute/box-model.html" rel="alternate"></link><published>2018-08-02T00:00:00-03:00</published><updated>2018-08-02T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-02:/leiaute/box-model.html</id><summary type="html">Todos os elementos HTML podem ser considerados como caixas</summary><content type="html">
+
+  &lt;p&gt;
+    Em HTML, todos os elementos podem ser considerados como &lt;strong&gt;CAIXAS&lt;/strong&gt;. Isto é chamado de &lt;strong&gt;box model&lt;/strong&gt;.
+    O box model consiste de: margens, bordas, paddings e o próprio conteúdo.
+  &lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;margin&lt;/strong&gt;: área transparente fora da borda do elemento&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;border&lt;/strong&gt;: a borda que circunda o elemento&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: área transparente entre o conteúdo e a borda&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;conteúdo&lt;/strong&gt;: área onde textos ou imagens são mostradas&lt;/li&gt;
+  &lt;/ul&gt;
+
+
+  &lt;figure class="figure"&gt;
+    &lt;img src="https://jeffersonrpn.github.io/leiaute/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure."&gt;
+    &lt;figcaption class="figure-caption"&gt;Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;Um exemplo de elemento para ser investigado usando a &lt;strong&gt;ferramenta de desenvolvedor&lt;/strong&gt;:&lt;/p&gt;
+
+  &lt;div class="code"&gt;
+    &lt;pre&gt;&lt;code&gt;
+  p {
+    margin: 40px;
+    padding: 20px;
+    border: solid 4px;
+    background-color: #eeeeee;
+  }
+    &lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+  &lt;p style="margin: 40px; padding: 20px; border: solid 4px; background-color: #eeeeee;"&gt;Até mesmo este parágrafo é um retângulo.&lt;/p&gt;
+
+</content><category term="html"></category><category term="css"></category><category term="boxmodel"></category></entry><entry><title>Apresentação</title><link href="https://jeffersonrpn.github.io/leiaute/apresentacao.html" rel="alternate"></link><published>2018-08-01T00:00:00-03:00</published><updated>2018-08-01T00:00:00-03:00</updated><author><name>Jefferson Neves</name></author><id>tag:jeffersonrpn.github.io,2018-08-01:/leiaute/apresentacao.html</id><summary type="html">Desenvolvimento Web com HTML/CSS/JS</summary><content type="html">
+
+  &lt;p&gt;
+    O trabalho de criação de leiaute de aplicações web é bem mais subjetivo que parece. Não há forma correta de fazer,
+    mas com certeza há formas erradas.
+  &lt;/p&gt;
+
+  &lt;h3&gt;Referências&lt;/h3&gt;
+
+  &lt;p&gt;
+    &lt;a href="https://www.w3schools.com/cssref/default.asp"&gt;Documentação oficial&lt;/a&gt;
+  &lt;/p&gt;
+
+</content><category term="html"></category><category term="css"></category></entry></feed>

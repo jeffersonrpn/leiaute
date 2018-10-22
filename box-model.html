@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <title>leiaute - Boxmodel</title>
+    <title>leiaute - Box model</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://jeffersonrpn.github.io/leiaute/theme/css/main.css" />
@@ -38,7 +38,7 @@
       <a href="https://jeffersonrpn.github.io/leiaute/category/intro.html">intro</a>
     </div>
     <h2 class="entry-title">
-      Boxmodel <small><a href="https://jeffersonrpn.github.io/leiaute/boxmodel.html" rel="bookmark" title="Permalink to Boxmodel">&lt;&gt;</a></small>
+      Box model <small><a href="https://jeffersonrpn.github.io/leiaute/box-model.html" rel="bookmark" title="Permalink to Box model">&lt;&gt;</a></small>
     </h2>
       <h3 class="entry-summary">Todos os elementos HTML podem ser considerados como caixas</h3>
    
@@ -47,43 +47,42 @@
     <address class="vcard author">
       Por           <a class="url fn" href="https://jeffersonrpn.github.io/leiaute/author/jefferson-neves.html">Jefferson Neves</a>
     </address>
-    <time class="published" datetime="2018-08-01T00:00:00-03:00">
-      Wed 01 August 2018
-    </time>
-    <div class="tags">
-        Tags:
-            <a href="https://jeffersonrpn.github.io/leiaute/tag/html.html">html</a>
-            <a href="https://jeffersonrpn.github.io/leiaute/tag/css.html">css</a>
-            <a href="https://jeffersonrpn.github.io/leiaute/tag/boxmodel.html">boxmodel</a>
-    </div>
   </footer><!-- /.post-info -->
   <div class="entry-content">
     
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <p>
+    Em HTML, todos os elementos podem ser considerados como <strong>CAIXAS</strong>. Isto é chamado de <strong>box model</strong>.
+    O box model consiste de: margens, bordas, paddings e o próprio conteúdo.
+  </p>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <ul>
+    <li><strong>margin</strong>: área transparente fora da borda do elemento</li>
+    <li><strong>border</strong>: a borda que circunda o elemento</li>
+    <li><strong>padding</strong>: área transparente entre o conteúdo e a borda</li>
+    <li><strong>conteúdo</strong>: área onde textos ou imagens são mostradas</li>
+  </ul>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
 
   <figure class="figure">
     <img src="https://jeffersonrpn.github.io/leiaute/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure.">
-    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+    <figcaption class="figure-caption">Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos</figcaption>
   </figure>
 
-  <p style="margin: 40px; padding: 20px; border: solid 4px;">Até mesmo este parágrafo é um retangulo.</p>
+  <p>Um exemplo de elemento para ser investigado usando a <strong>ferramenta de desenvolvedor</strong>:</p>
+
+  <div class="code">
+    <pre><code>
+  p {
+    margin: 40px;
+    padding: 20px;
+    border: solid 4px;
+    background-color: #eeeeee;
+  }
+    </code></pre>
+  </div>
+
+  <p style="margin: 40px; padding: 20px; border: solid 4px; background-color: #eeeeee;">Até mesmo este parágrafo é um retângulo.</p>
 
 
   </div><!-- /.entry-content -->
