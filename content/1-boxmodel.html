@@ -1,9 +1,9 @@
 <html>
 
 <head>
-  <title>Boxmodel</title>
+  <title>Box model</title>
   <meta name="tags" content="html, css, boxmodel" />
-  <meta name="date" content="2018-08-01" />
+  <meta name="date" content="2018-08-02" />
   <meta name="category" content="intro" />
   <meta name="authors" content="Jefferson Neves" />
   <meta name="summary" content="Todos os elementos HTML podem ser considerados como caixas" />
@@ -11,30 +11,38 @@
 
 <body>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <p>
+    Em HTML, todos os elementos podem ser considerados como <strong>CAIXAS</strong>. Isto é chamado de <strong>box model</strong>.
+    O box model consiste de: margens, bordas, paddings e o próprio conteúdo.
+  </p>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
+  <ul>
+    <li><strong>margin</strong>: área transparente fora da borda do elemento</li>
+    <li><strong>border</strong>: a borda que circunda o elemento</li>
+    <li><strong>padding</strong>: área transparente entre o conteúdo e a borda</li>
+    <li><strong>conteúdo</strong>: área onde textos ou imagens são mostradas</li>
+  </ul>
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
-
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam iure ipsa vel pariatur suscipit, commodi quasi quod,
-    consectetur fuga expedita tempora nihil. Cumque non inventore aperiam. Aperiam minus vero dicta.</p>
 
   <figure class="figure">
     <img src="{filename}/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure.">
-    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+    <figcaption class="figure-caption">Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos</figcaption>
   </figure>
 
-  <p style="margin: 40px; padding: 20px; border: solid 4px;">Até mesmo este parágrafo é um retangulo.</p>
+  <p>Um exemplo de elemento para ser investigado usando a <strong>ferramenta de desenvolvedor</strong>:</p>
+
+  <div class="code">
+    <pre><code>
+  p {
+    margin: 40px;
+    padding: 20px;
+    border: solid 4px;
+    background-color: #eeeeee;
+  }
+    </code></pre>
+  </div>
+
+  <p style="margin: 40px; padding: 20px; border: solid 4px; background-color: #eeeeee;">Até mesmo este parágrafo é um retângulo.</p>
 
 </body>
 

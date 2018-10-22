@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>Layout</title>
+  <meta name="tags" content="html, css" />
+  <meta name="date" content="2018-08-03" />
+  <meta name="category" content="intro" />
+  <meta name="authors" content="Jefferson Neves" />
+  <meta name="summary" content="Block, inline e inline-block" />
+</head>
+
+<body>
+
+  <p>
+    Em se trantando de leiautes, o box model pode assumir diferentes maneiras de tomar o seu espaço.
+  </p>
+
+  <dl>
+    <dt>display: block</dt>
+    <dd>
+      Assume a mesma largura do elemento pai.<br>
+      Assume a largura do conteúdo.<br>
+      Pode ter a largura e alturas definidas.
+    </dd>
+    <dt>display: inline</dt>
+    <dd>Assume a mesma largura do elemento pai. Pode ter a largura e alturas definidas.</dd>
+  </dl>
+
+  <ul>
+    <li><strong>display: block</strong>: assume a mesma largura do elemento pai.</li>
+    <li><strong>border</strong>: a borda que circunda o elemento</li>
+    <li><strong>padding</strong>: área transparente entre o conteúdo e a borda</li>
+    <li><strong>conteúdo</strong>: área onde textos ou imagens são mostradas</li>
+  </ul>
+
+
+  <figure class="figure">
+    <img src="{filename}/images/box-model.svg" alt="A generic square placeholder image with rounded corners in a figure.">
+    <figcaption class="figure-caption">Isto aqui é só uma imagem, mas representa o espaço ocupado pelos elementos</figcaption>
+  </figure>
+
+  <p style="margin: 40px; padding: 20px; border: solid 4px;">Até mesmo este parágrafo é um retângulo.</p>
+
+  <code>
+    p {
+      margin: 40px;
+      padding: 20px;
+      border: solid 4px;
+    }
+  </code>
+
+</body>
+
+</html>
